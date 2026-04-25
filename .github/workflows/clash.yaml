@@ -3,7 +3,8 @@ name: Sync multiple upstream files
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 * * * *"
+    - cron: "0 18 * * *"
+      timezone: "Asia/Shanghai"
 
 permissions:
   contents: write
