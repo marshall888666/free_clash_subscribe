@@ -1,0 +1,79 @@
+name: Sync multiple upstream files
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-upstream-files
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout current repo
+        uses: actions/checkout@v4
+
+      - name: Sync files from secret map
+        env:
+          SYNC_MAP: ${{ secrets.SYNC_MAP }}
+        run: |
+          python <<'PY'
+          import json
+          import os
+          import pathlib
+          import urllib.request
+
+          sync_map = json.loads(os.environ["SYNC_MAP"])
+
+          if not isinstance(sync_map, list):
+              raise SystemExit("SYNC_MAP must be a JSON array")
+
+          changed = []
+
+          for item in sync_map:
+              url = item["url"]
+              target = item["target"]
+
+              target_path = pathlib.Path(target)
+              target_path.parent.mkdir(parents=True, exist_ok=True)
+
+              with urllib.request.urlopen(url, timeout=30) as resp:
+                  data = resp.read()
+
+              old_data = target_path.read_bytes() if target_path.exists() else None
+
+              if old_data != data:
+                  target_path.write_bytes(data)
+                  changed.append(str(target_path))
+
+          with open(os.environ["GITHUB_ENV"], "a", encoding="utf-8") as f:
+              if changed:
+                  f.write("HAS_CHANGES=true\n")
+                  f.write("CHANGED_FILES<<EOF\n")
+                  f.write("\n".join(changed) + "\n")
+                  f.write("EOF\n")
+              else:
+                  f.write("HAS_CHANGES=false\n")
+          PY
+
+      - name: Commit and push
+        if: env.HAS_CHANGES == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "sync: update upstream files"
+          git push
+
+      - name: Show changed files
+        if: env.HAS_CHANGES == 'true'
+        run: |
+          echo "$CHANGED_FILES"
