@@ -13,8 +13,8 @@
 
 | 类型       | 链接 |
 |------------|------|
-| 🔥 Clash 订阅 | [点击获取](https://url-shortener.me/1FGR) |
-| 🔥 V2Ray 订阅 | [点击获取](https://url-shortener.me/1FGX) |
+| 🔥 Clash 订阅 | [点击获取](https://raw.githubusercontent.com/marshall888666/free_clash_subscribe/main/source/clash-meta.yaml) |
+| 🔥 V2Ray 订阅 | [点击获取](https://raw.githubusercontent.com/marshall888666/free_clash_subscribe/main/source/clash-meta-2.yaml) |
 
 ---
 
