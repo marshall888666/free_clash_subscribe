@@ -37,7 +37,7 @@
 - 速度快，覆盖多地  
 - 价格合理，长期使用无需担心  
 
-[访问链接 → 狗狗科技高速节点](https://tinyurl.com/mza2b8tu)
+[访问链接 → 狗狗科技高速节点](https://www.gougouti.com/#/register?code=FSySepwe)
 
 ---
 
