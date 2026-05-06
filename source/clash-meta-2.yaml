@@ -5,81 +5,87 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇦🇪 阿联酋 | ARE, server: 159.65.86.98, port: 2087, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, servername: sni.111000.v6.rocks, network: ws, ws-opts: {path: "/?https://t.me/WangCai2🇨🇳", headers: {Host: sni.111000.v6.rocks}}, udp: true}
-  - {name: 🇫🇮 芬兰 | FIN, server: 135.181.155.97, port: 443, type: vless, uuid: 309fa273-6579-4cb2-9143-7cad50401eba, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: gZGVp5PUdafgsmi1gawa1yLuha_XhXRc_W9SvPiGmTY, short-id: "7cad5040" }, servername: www.cloudflare.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇫🇷 法国 | FRA, server: c3dcb308-temhs0-tvvhcz-tl32.fr.oshuawei.com, port: 443, type: http, username: 5c02ab88-7b9c-11ea-8fc9-f23c913c8d2b, password: 5c02ab88-7b9c-11ea-8fc9-f23c913c8d2b, tls: true}
-  - {name: 🇫🇷 法国 | FRA 2, server: c6b9f09b-tekn40-twbja8-1hd7v.fr.oshuawei.com, port: 443, type: http, username: f73c64bc-9e8c-11ec-bd7c-f23c913c8d2b, password: f73c64bc-9e8c-11ec-bd7c-f23c913c8d2b, tls: true}
-  - {name: 🇫🇷 法国 | FRA 3, server: b7e2a195-temhs0-teykgk-19xg1.fr.oshuawei.com, port: 443, type: http, username: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9, password: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9, tls: true}
-  - {name: 🇫🇷 法国 | FRA 4, server: 1e4693c7-tekn40-thpx3l-141tv.fr.oshuawei.com, port: 443, type: http, username: bd77bfe8-e0f3-11ec-bd7c-f23c913c8d2b, password: bd77bfe8-e0f3-11ec-bd7c-f23c913c8d2b, tls: true}
-  - {name: 🇫🇷 法国 | FRA 5, server: bea989bf-tekn40-truoje-1uni.fr.oshuawei.com, port: 443, type: http, username: adbd0a82-3336-11ed-bd7c-f23c913c8d2b, password: adbd0a82-3336-11ed-bd7c-f23c913c8d2b, tls: true}
-  - {name: 🇬🇧 英国 | GBR, server: c86fe3df-teisg0-tgr32b-wj6v.uk.oshuawei.com, port: 443, type: http, username: 847c03b2-0a9d-11eb-a8bf-f23c91cfbbc9, password: 847c03b2-0a9d-11eb-a8bf-f23c91cfbbc9, tls: true}
-  - {name: 🇬🇧 英国 | GBR 2, server: dc7ebf91-teisg0-tpw4i4-1pckg.uk.oshuawei.com, port: 443, type: http, username: 526a1128-7487-11ee-9bca-f23c913c8d2b, password: 526a1128-7487-11ee-9bca-f23c913c8d2b, tls: true}
-  - {name: 🇬🇧 英国 | GBR 3, server: 4bf1bf49-teisg0-tijbf1-1nhp7.uk.oshuawei.com, port: 443, type: http, username: 5fc9c9aa-ea47-11ed-8397-f23c913c8d2b, password: 5fc9c9aa-ea47-11ed-8397-f23c913c8d2b, tls: true}
-  - {name: 🇭🇰 香港 | HKG, server: f192bcfa-temhs0-tvvhcz-tl32.cm4.oshuawei.com, port: 5228, type: http, username: 5c02ab88-7b9c-11ea-8fc9-f23c913c8d2b, password: 5c02ab88-7b9c-11ea-8fc9-f23c913c8d2b, tls: true}
-  - {name: 🇭🇰 香港 | HKG 2, server: c92fc331-tegxs0-tqx9ef-1k0yf.cm4.oshuawei.com, port: 5228, type: http, username: 9cc3c03e-21fd-11ee-a642-f23c91369f2d, password: 9cc3c03e-21fd-11ee-a642-f23c91369f2d, tls: true}
-  - {name: 🇭🇰 香港 | HKG 3, server: 4f64916a-tegxs0-tonrmx-8n27.cm4.oshuawei.com, port: 5228, type: http, username: 5dc6fa05-a601-aba6-7761-ecde22d2b0fc, password: 5dc6fa05-a601-aba6-7761-ecde22d2b0fc, tls: true}
-  - {name: 🇭🇰 香港 | HKG 4, server: 59263473-teisg0-tnt75r-1k8ga.cm4.oshuawei.com, port: 5228, type: http, username: f860f2da-5035-11ed-bb74-f23c9164ca5d, password: f860f2da-5035-11ed-bb74-f23c9164ca5d, tls: true}
-  - {name: 🇭🇰 香港 | HKG 5, server: 3a6a65fe-ta1og0-truoje-1uni.cm4.oshuawei.com, port: 5228, type: http, username: adbd0a82-3336-11ed-bd7c-f23c913c8d2b, password: adbd0a82-3336-11ed-bd7c-f23c913c8d2b, tls: true}
-  - {name: 🇮🇩 印尼 | IDN, server: d3e961aa-tegxs0-tfjz9x-1t5n1.id.oshuawei.com, port: 32233, type: http, username: ea800f9e-ca6c-11ef-8e74-f23c913c8d2b, password: ea800f9e-ca6c-11ef-8e74-f23c913c8d2b, tls: true}
-  - {name: 🇮🇩 印尼 | IDN 2, server: 9b3c704f-temhs0-tonrmx-8n27.id.oshuawei.com, port: 32233, type: http, username: 5dc6fa05-a601-aba6-7761-ecde22d2b0fc, password: 5dc6fa05-a601-aba6-7761-ecde22d2b0fc, tls: true}
-  - {name: 🇮🇩 印尼 | IDN 3, server: 9e69533a-teisg0-tm3dx0-1r9dt.id.oshuawei.com, port: 32233, type: http, username: de003c72-0157-11ef-86da-f23c91cfbbc9, password: de003c72-0157-11ef-86da-f23c91cfbbc9, tls: true}
-  - {name: 🇮🇩 印尼 | IDN 4, server: 4f88f250-temhs0-tlvq5w-1jcwu.id.oshuawei.com, port: 32233, type: http, username: f93486ce-cc84-11ed-9e98-f23c913c8d2b, password: f93486ce-cc84-11ed-9e98-f23c913c8d2b, tls: true}
-  - {name: 🇮🇩 印尼 | IDN 5, server: b1d4176a-teisg0-tfpsin-1q3dm.id.oshuawei.com, port: 32233, type: http, username: c1785de0-212f-11ef-92aa-f23c9164ca5d, password: c1785de0-212f-11ef-92aa-f23c9164ca5d, tls: true}
-  - {name: 🇮🇩 印尼 | IDN 6, server: 40617176-tekn40-tm23vf-1jk6u.id.oshuawei.com, port: 32233, type: http, username: 45bc25b2-1a10-11ed-91c0-f23c91cfbbc9, password: 45bc25b2-1a10-11ed-91c0-f23c91cfbbc9, tls: true}
-  - {name: 🇯🇵 日本 | JPN, server: 8a3364ec-temhs0-tnt75r-1k8ga.jp.oshuawei.com, port: 443, type: http, username: f860f2da-5035-11ed-bb74-f23c9164ca5d, password: f860f2da-5035-11ed-bb74-f23c9164ca5d, tls: true}
-  - {name: 🇯🇵 日本 | JPN 2, server: 30445408-teisg0-tf681f-1j6h0.jp.oshuawei.com, port: 443, type: http, username: dcccacba-fa44-11ef-8400-f23c9164ca5d, password: dcccacba-fa44-11ef-8400-f23c9164ca5d, tls: true}
-  - {name: 🇰🇷 韩国 | KOR, server: 49a86f1d-teisg0-thd0h1-1rz5s.kr.oshuawei.com, port: 31433, type: http, username: 40e084d6-0316-11f0-90e2-f23c913c8d2b, password: 40e084d6-0316-11f0-90e2-f23c913c8d2b, tls: true}
-  - {name: 🇰🇷 韩国 | KOR 2, server: 586cf259-tegxs0-tg4a89-ach1.kr.oshuawei.com, port: 31433, type: http, username: b9c9905c-1627-11ec-a0fc-f23c913c8d2b, password: b9c9905c-1627-11ec-a0fc-f23c913c8d2b, tls: true}
-  - {name: 🇰🇷 韩国 | KOR 3, server: 2c6362da-temhs0-tnkuks-wujn.kr.oshuawei.com, port: 31433, type: http, username: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b, password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b, tls: true}
-  - {name: 🇱🇻 拉脱维亚 | LVA, server: 185.133.35.238, port: 2096, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, servername: sni.jpmj.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?Telegram🇨🇳 @WangCai2", headers: {Host: sni.jpmj.dev}}, udp: true}
-  - {name: 🇱🇻 拉脱维亚 | LVA 2, server: 134.209.23.227, port: 2096, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, servername: sni.111000.v6.rocks, network: ws, ws-opts: {path: "/?https://t.me/WangCai2🇨🇳", headers: {Host: sni.111000.v6.rocks}}, udp: true}
-  - {name: 🇱🇻 拉脱维亚 | LVA 3, server: 138.124.16.38, port: 8443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, servername: sni.111000.v6.army, network: ws, ws-opts: {path: "/?https://t.me/WangCai2🇨🇳=", headers: {Host: sni.111000.v6.army}}, udp: true}
-  - {name: 🇲🇾 马来西亚 | MYS, server: 10fa67e6-t9zts0-tighxj-12hj8.my.oshuawei.com, port: 31233, type: http, username: 5acc7a7c-d7ea-11eb-8673-f23c9164ca5d, password: 5acc7a7c-d7ea-11eb-8673-f23c9164ca5d, tls: true}
-  - {name: 🇲🇾 马来西亚 | MYS 2, server: dcabe7bc-teisg0-thd0h1-1rz5s.my.oshuawei.com, port: 31233, type: http, username: 40e084d6-0316-11f0-90e2-f23c913c8d2b, password: 40e084d6-0316-11f0-90e2-f23c913c8d2b, tls: true}
-  - {name: 🇳🇱 荷兰 | NLD, server: 185.125.203.33, port: 443, type: vless, uuid: b1c72117-f193-47ad-ae96-994e3444a6bf, tls: true, reality-opts: {public-key: BgDZcLIjx_1FZbLGsaZuu7Pc2dl5OwSd3VErem7ymyA, short-id: "8c71" }, servername: yahoo.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇷🇴 罗马尼亚 | ROU, server: 193.176.84.20, port: 9002, type: http, tls: true, skip-cert-verify: true}
+  - {name: 🇩🇪 德国 | DEU, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, servername: www.bing.com, udp: true}
+  - {name: 🇩🇪 德国 | DEU 2, server: 91.184.240.196, port: 443, type: trojan, password: "8r<[9'l6hAO#8ZQi", sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram🇨🇳 @WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}, udp: true}
+  - {name: 🇩🇪 德国 | DEU 3, server: 82.118.21.88, port: 443, type: trojan, password: "8r<[9'l6hAO#8ZQi", sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram @WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}, udp: true}
+  - {name: 🇫🇮 芬兰 | FIN, server: 185.221.163.129, port: 443, type: trojan, password: "8r<[9'l6hAO#8ZQi", sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram🇨🇳 @WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}, udp: true}
+  - {name: 🇫🇷 法国 | FRA, server: 163.172.113.118, port: 41590, type: hysteria2, password: dongtaiwang.com, auth: dongtaiwang.com, sni: www.microsoft.com, skip-cert-verify: true, ports: "41283,40022,41000-42000", udp: true}
+  - {name: 🇫🇷 法国 | FRA 2, server: 7bd3b451-temhs0-tnkuks-wujn.fr.oshuawei.com, port: 443, type: http, username: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b, password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b, tls: true}
+  - {name: 🇫🇷 法国 | FRA 3, server: 163.172.113.118, port: 41073, type: hysteria2, password: dongtaiwang.com, auth: dongtaiwang.com, sni: www.microsoft.com, skip-cert-verify: true, ports: "41211,41283,40022,41000-42000", udp: true}
+  - {name: 🇫🇷 法国 | FRA 4, server: a07aa9b7-teocg0-ts40sw-14g76.fr.oshuawei.com, port: 443, type: http, username: 4729b4c8-1790-11eb-8684-f23c913c8d2b, password: 4729b4c8-1790-11eb-8684-f23c913c8d2b, tls: true}
+  - {name: 🇫🇷 法国 | FRA 5, server: 163.172.113.118, port: 41784, type: hysteria2, password: dongtaiwang.com, auth: dongtaiwang.com, sni: www.microsoft.com, skip-cert-verify: true, ports: "41283,40022,41000-42000", udp: true}
+  - {name: 🇬🇧 英国 | GBR, server: 7536c2bf-teocg0-thqfo9-1lkbs.uk.oshuawei.com, port: 443, type: http, username: 5a4c13ae-6673-11ee-a149-f23c9164ca5d, password: 5a4c13ae-6673-11ee-a149-f23c9164ca5d, tls: true}
+  - {name: 🇬🇧 英国 | GBR 2, server: 36a6f3ff-tegxs0-thvjmj-1th8j.uk.oshuawei.com, port: 443, type: http, username: 7d7c111e-fbc1-11ef-ab5f-f23c913c8d2b, password: 7d7c111e-fbc1-11ef-ab5f-f23c913c8d2b, tls: true}
+  - {name: 🇬🇧 英国 | GBR 3, server: a3a299e3-teisg0-tv7zgh-1ijh5.uk.oshuawei.com, port: 443, type: http, username: f7d95364-607b-11ee-93af-f23c91369f2d, password: f7d95364-607b-11ee-93af-f23c91369f2d, tls: true}
+  - {name: 🇬🇧 英国 | GBR 4, server: 5fe4ea57-temhs0-thvjmj-1th8j.uk.oshuawei.com, port: 443, type: http, username: 7d7c111e-fbc1-11ef-ab5f-f23c913c8d2b, password: 7d7c111e-fbc1-11ef-ab5f-f23c913c8d2b, tls: true}
+  - {name: 🇬🇧 英国 | GBR 5, server: 81bd1605-teocg0-tgzvop-hns7.uk.oshuawei.com, port: 443, type: http, username: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b, password: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b, tls: true}
+  - {name: 🇬🇧 英国 | GBR 6, server: 107.181.147.22, port: 443, type: vless, uuid: 7eb4a87d-e22f-4eb3-a793-ee3d6200fdc6, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: Cs45TZ-4YKa8fWZ72YJcIcQCKipWsoYNZHEqFvs-PTE, short-id: "a6aef5143d94" }, servername: www.microsoft.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇬🇧 英国 | GBR 7, server: 1b8fda73-teisg0-tnkuks-wujn.uk.oshuawei.com, port: 443, type: http, username: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b, password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b, tls: true}
+  - {name: 🇭🇰 香港 | HKG, server: 8b89973e-tekn40-tnkuks-wujn.cm4.oshuawei.com, port: 5228, type: http, username: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b, password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b, tls: true}
+  - {name: 🇭🇰 香港 | HKG 2, server: 8e7101f5-tegxs0-teykgk-19xg1.cm4.oshuawei.com, port: 5228, type: http, username: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9, password: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9, tls: true}
+  - {name: 🇭🇰 香港 | HKG 3, server: 67886ef4-teocg0-thqfo9-1lkbs.cm4.oshuawei.com, port: 5228, type: http, username: 5a4c13ae-6673-11ee-a149-f23c9164ca5d, password: 5a4c13ae-6673-11ee-a149-f23c9164ca5d, tls: true}
+  - {name: 🇭🇰 香港 | HKG 4, server: e9a28d1d-teisg0-thqfo9-1lkbs.cm4.oshuawei.com, port: 5228, type: http, username: 5a4c13ae-6673-11ee-a149-f23c9164ca5d, password: 5a4c13ae-6673-11ee-a149-f23c9164ca5d, tls: true}
+  - {name: 🇭🇰 香港 | HKG 5, server: 28c9c5d2-teisg0-ts40sw-14g76.cm4.oshuawei.com, port: 5228, type: http, username: 4729b4c8-1790-11eb-8684-f23c913c8d2b, password: 4729b4c8-1790-11eb-8684-f23c913c8d2b, tls: true}
+  - {name: 🇮🇩 印尼 | IDN, server: b00e84ee-temhs0-tgzvop-hns7.id.oshuawei.com, port: 32233, type: http, username: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b, password: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b, tls: true}
+  - {name: 🇮🇩 印尼 | IDN 2, server: c9637510-teocg0-tj7qhp-4lg6.id.oshuawei.com, port: 32233, type: http, username: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d, password: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d, tls: true}
+  - {name: 🇮🇩 印尼 | IDN 3, server: ffee6f5b-tegxs0-tnnrly-g43g.id.oshuawei.com, port: 32233, type: http, username: 6ddb6a68-d5f5-ca30-3943-cf0c9876d50c, password: 6ddb6a68-d5f5-ca30-3943-cf0c9876d50c, tls: true}
+  - {name: 🇯🇵 日本 | JPN, server: 334800d1-teocg0-thvjmj-1th8j.jp.oshuawei.com, port: 443, type: http, username: 7d7c111e-fbc1-11ef-ab5f-f23c913c8d2b, password: 7d7c111e-fbc1-11ef-ab5f-f23c913c8d2b, tls: true}
+  - {name: 🇯🇵 日本 | JPN 2, server: 0e580ac3-temhs0-tv7zgh-1ijh5.jp.oshuawei.com, port: 443, type: http, username: f7d95364-607b-11ee-93af-f23c91369f2d, password: f7d95364-607b-11ee-93af-f23c91369f2d, tls: true}
+  - {name: 🇯🇵 日本 | JPN 3, server: cf066f64-teocg0-tpaqgu-1smhu.jp.oshuawei.com, port: 443, type: http, username: 62f2374c-891b-11ef-a3f6-f23c9164ca5d, password: 62f2374c-891b-11ef-a3f6-f23c9164ca5d, tls: true}
+  - {name: 🇱🇻 拉脱维亚 | LVA, server: 140.238.17.157, port: 443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, servername: sni.111000.v6.rocks, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&https://t.me/WangCai2🇨🇳", headers: {Host: sni.111000.v6.rocks}}, udp: true}
+  - {name: 🇱🇻 拉脱维亚 | LVA 2, server: 151.242.69.59, port: 443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, servername: sni.111000.v6.army, network: ws, ws-opts: {path: "/?ed=2560&https://t.me/WangCai2🇨🇳", headers: {Host: sni.111000.v6.army}}, udp: true}
+  - {name: 🇲🇾 马来西亚 | MYS, server: 47fcb6bf-temhs0-teoi3e-1thts.my.oshuawei.com, port: 31233, type: http, username: cb96c846-fd6d-11ef-a910-f23c9164ca5d, password: cb96c846-fd6d-11ef-a910-f23c9164ca5d, tls: true}
+  - {name: 🇲🇾 马来西亚 | MYS 2, server: 129abf98-tekn40-tnkuks-wujn.my.oshuawei.com, port: 31233, type: http, username: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b, password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b, tls: true}
+  - {name: 🇷🇴 罗马尼亚 | ROU, server: 84.239.49.154, port: 9002, type: http, tls: true, skip-cert-verify: true}
   - {name: 🇷🇴 罗马尼亚 | ROU 2, server: 193.176.84.24, port: 9002, type: http, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡 | SGP, server: 0e41091b-tekn40-tv7zgh-1ijh5.sg3.oshuawei.com, port: 443, type: http, username: f7d95364-607b-11ee-93af-f23c91369f2d, password: f7d95364-607b-11ee-93af-f23c91369f2d, tls: true}
-  - {name: 🇸🇬 新加坡 | SGP 2, server: f98d7713-teisg0-tgzvop-hns7.sg3.oshuawei.com, port: 443, type: http, username: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b, password: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b, tls: true}
-  - {name: 🇸🇬 新加坡 | SGP 3, server: f734a183-temhs0-tpaqgu-1smhu.sg3.oshuawei.com, port: 443, type: http, username: 62f2374c-891b-11ef-a3f6-f23c9164ca5d, password: 62f2374c-891b-11ef-a3f6-f23c9164ca5d, tls: true}
-  - {name: 🇸🇬 新加坡 | SGP 4, server: c0ba9f82-temhs0-tv7zgh-1ijh5.sg3.oshuawei.com, port: 443, type: http, username: f7d95364-607b-11ee-93af-f23c91369f2d, password: f7d95364-607b-11ee-93af-f23c91369f2d, tls: true}
-  - {name: 🇺🇸 美国 | USA, server: ed886174-teisg0-tqruo0-1pqhp.isp.cdnkuaishou.com, port: 8443, type: http, username: b02327ac-a49a-11ef-a673-f23c913c8d2b, password: b02327ac-a49a-11ef-a673-f23c913c8d2b, tls: true}
-  - {name: 🇺🇸 美国 | USA 2, server: e408d8a1-temhs0-tjsm26-6gn6.sj.hyhuawei.com, port: 443, type: http, username: c12f73f6-e8c7-11ed-9246-f23c9164ca5d, password: c12f73f6-e8c7-11ed-9246-f23c9164ca5d, tls: true}
-  - {name: 🇺🇸 美国 | USA 3, server: 4954d027-temhs0-tf681f-1j6h0.los.hyhuawei.com, port: 443, type: anytls, password: dcccacba-fa44-11ef-8400-f23c9164ca5d, udp: true, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 | USA 4, server: 9600594a-tekn40-thpx3l-141tv.se.hyhuawei.com, port: 443, type: anytls, password: bd77bfe8-e0f3-11ec-bd7c-f23c913c8d2b, udp: true, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 | USA 5, server: 56a58180-tekn40-tfjz9x-1t5n1.isp.cdnkuaishou.com, port: 8443, type: http, username: ea800f9e-ca6c-11ef-8e74-f23c913c8d2b, password: ea800f9e-ca6c-11ef-8e74-f23c913c8d2b, tls: true}
-  - {name: 🇺🇸 美国 | USA 6, server: f85d663e-temhs0-tm23vf-1jk6u.se.oshuawei.com, port: 443, type: http, username: 45bc25b2-1a10-11ed-91c0-f23c91cfbbc9, password: 45bc25b2-1a10-11ed-91c0-f23c91cfbbc9, tls: true}
-  - {name: 🇺🇸 美国 | USA 7, server: 5ef53cd0-tekn40-tsdg75-tlhh.se.oshuawei.com, port: 443, type: http, username: bdf3e15e-c64c-11ea-82ef-f23c9164ca5d, password: bdf3e15e-c64c-11ea-82ef-f23c9164ca5d, tls: true}
-  - {name: 🇺🇸 美国 | USA 8, server: 90815997-temhs0-tw2fdz-1s824.u12.oshuawei.com, port: 443, type: http, username: 6d4abac0-86e6-11ef-83cc-f23c913c8d2b, password: 6d4abac0-86e6-11ef-83cc-f23c913c8d2b, tls: true}
-  - {name: 🇺🇸 美国 | USA 9, server: fa93f5dd-temhs0-tgr32b-wj6v.se.hyhuawei.com, port: 443, type: anytls, password: 847c03b2-0a9d-11eb-a8bf-f23c91cfbbc9, udp: true, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 | USA 10, server: b52c7363-tekn40-tnnrly-g43g.sj.oshuawei.com, port: 8443, type: anytls, password: 6ddb6a68-d5f5-ca30-3943-cf0c9876d50c, udp: true, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 | USA 11, server: e422f70d-teisg0-tq9o8d-1d3bw.sj.hyhuawei.com, port: 443, type: http, username: 0fcf5a7a-e1b7-11ec-a352-f23c91cfbbc9, password: 0fcf5a7a-e1b7-11ec-a352-f23c91cfbbc9, tls: true}
-  - {name: 🇺🇸 美国 | USA 12, server: cb3de62f-tekn40-th1s9h-8rja.sj.oshuawei.com, port: 8443, type: anytls, password: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b, udp: true, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 | USA 13, server: d8c1af1f-tegxs0-thqfo9-1lkbs.isp.cdnkuaishou.com, port: 8443, type: http, username: 5a4c13ae-6673-11ee-a149-f23c9164ca5d, password: 5a4c13ae-6673-11ee-a149-f23c9164ca5d, tls: true}
-  - {name: 🇺🇸 美国 | USA 14, server: 644d74d6-tekn40-tgzvop-hns7.los.hyhuawei.com, port: 443, type: anytls, password: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b, udp: true, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 | USA 15, server: 104.19.42.90, port: 443, type: vless, uuid: df862b4c-2150-4b36-81ac-405036cf9ff6, tls: true, servername: kalami-eew.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: kalami-eew.pages.dev}}, udp: true}
-  - {name: 🇺🇸 美国 | USA 16, server: 82193387-tekn40-tsdg75-tlhh.u12.oshuawei.com, port: 443, type: http, username: bdf3e15e-c64c-11ea-82ef-f23c9164ca5d, password: bdf3e15e-c64c-11ea-82ef-f23c9164ca5d, tls: true}
-  - {name: 🇺🇸 美国 | USA 17, server: 112abc72-temhs0-th1s9h-8rja.sj.hyhuawei.com, port: 443, type: http, username: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b, password: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b, tls: true}
-  - {name: 🇺🇸 美国 | USA 18, server: 206df8b1-temhs0-tgr32b-wj6v.se.oshuawei.com, port: 443, type: http, username: 847c03b2-0a9d-11eb-a8bf-f23c91cfbbc9, password: 847c03b2-0a9d-11eb-a8bf-f23c91cfbbc9, tls: true}
-  - {name: 🇺🇸 美国 | USA 19, server: ff38950d-teisg0-thvjmj-1th8j.se.hyhuawei.com, port: 443, type: anytls, password: 7d7c111e-fbc1-11ef-ab5f-f23c913c8d2b, udp: true, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 | USA 20, server: c463e9b1-tekn40-thvc3p-1o4kv.isp.cdnkuaishou.com, port: 8443, type: http, username: 87b31a02-172e-11ee-a11f-f23c913c8d2b, password: 87b31a02-172e-11ee-a11f-f23c913c8d2b, tls: true}
-  - {name: 🇺🇸 美国 | USA 21, server: d4f6532b-temhs0-tnnrly-g43g.sj.oshuawei.com, port: 8443, type: anytls, password: 6ddb6a68-d5f5-ca30-3943-cf0c9876d50c, udp: true, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 | USA 22, server: eef47620-temhs0-ten5li-mv7m.sj.hyhuawei.com, port: 443, type: http, username: 94d40708-8273-11ea-8fc9-f23c913c8d2b, password: 94d40708-8273-11ea-8fc9-f23c913c8d2b, tls: true}
-  - {name: 🇺🇸 美国 | USA 23, server: ba981380-teisg0-tnkuks-wujn.isp.cdnkuaishou.com, port: 8443, type: http, username: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b, password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b, tls: true}
-  - {name: 🇺🇸 美国 | USA 24, server: ff494bb5-temhs0-twbja8-1hd7v.isp.cdnkuaishou.com, port: 8443, type: http, username: f73c64bc-9e8c-11ec-bd7c-f23c913c8d2b, password: f73c64bc-9e8c-11ec-bd7c-f23c913c8d2b, tls: true}
-  - {name: 🇺🇸 美国 | USA 25, server: 633113cf-temhs0-thqfo9-1lkbs.los.hyhuawei.com, port: 443, type: anytls, password: 5a4c13ae-6673-11ee-a149-f23c9164ca5d, udp: true, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 | USA 26, server: c93a26cf-temhs0-tnfe2z-1s4hc.isp.cdnkuaishou.com, port: 8443, type: http, username: aafedc64-9c23-11ef-a79f-f23c91cfbbc9, password: aafedc64-9c23-11ef-a79f-f23c91cfbbc9, tls: true}
-  - {name: 🇺🇸 美国 | USA 27, server: 4d91609d-tegxs0-teykgk-19xg1.sj.oshuawei.com, port: 8443, type: anytls, password: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9, udp: true, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 | USA 28, server: 6afdbef4-teisg0-tf5zuq-fa3p.sj.hyhuawei.com, port: 443, type: http, username: 905fcd78-866c-81e1-3cb8-1beb59d661ab, password: 905fcd78-866c-81e1-3cb8-1beb59d661ab, tls: true}
-  - {name: 🇺🇸 美国 | USA 29, server: 823f4b57-tekn40-tg4a89-ach1.los.hyhuawei.com, port: 443, type: anytls, password: b9c9905c-1627-11ec-a0fc-f23c913c8d2b, udp: true, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 | USA 30, server: 83.147.243.194, port: 30779, type: vless, uuid: 0cd15d1b-b117-4f34-9aa1-c14fc5bcdd83, tls: true, reality-opts: {public-key: HGlfPrJjZ2gttVLLp8-ZVofYK994S-6wUBRRl1m_lFA, short-id: "7a" }, servername: www.oracle.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇺🇸 美国 | USA 31, server: ae5f72c7-tekn40-tg0j4k-gacy.sj.oshuawei.com, port: 8443, type: anytls, password: 20f87b02-0eaa-11eb-8684-f23c913c8d2b, udp: true, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 | USA 32, server: 7acb6c73-tegxs0-tnnrly-g43g.sj.hyhuawei.com, port: 443, type: http, username: 6ddb6a68-d5f5-ca30-3943-cf0c9876d50c, password: 6ddb6a68-d5f5-ca30-3943-cf0c9876d50c, tls: true}
-  - {name: 🇺🇸 美国 | USA 33, server: 1ef83b99-temhs0-tvvhcz-tl32.se.hyhuawei.com, port: 443, type: anytls, password: 5c02ab88-7b9c-11ea-8fc9-f23c913c8d2b, udp: true, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 | USA 34, server: 05635081-temhs0-thd0h1-1rz5s.los.hyhuawei.com, port: 443, type: anytls, password: 40e084d6-0316-11f0-90e2-f23c913c8d2b, udp: true, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 | USA 35, server: 10b2d0e4-tekn40-tflsjv-zn8y.u12.oshuawei.com, port: 443, type: http, username: 44e76f8c-7362-11ec-bb74-f23c9164ca5d, password: 44e76f8c-7362-11ec-bb74-f23c9164ca5d, tls: true}
-  - {name: 🇻🇳 越南 | VNM, server: 103.186.154.71, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🏴‍☠️ 未知地区 | Unknown, server: cf.tencentapp.cn, port: 443, type: vless, uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9, tls: true, servername: tptpss.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /https://168.167.220.27:443, headers: {Host: tptpss.pages.dev}}, udp: true}
+  - {name: 🇸🇪 瑞典 | SWE, server: 144.31.235.75, port: 443, type: vless, uuid: f9d8aa07-589f-4da0-9cb0-fd8f2f0e4fa8, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: ZHEMPjSWslk6_qD2JNQzd5enUPz8nY9mYRRuM6NkZmU, short-id: "0123456789abcdef" }, servername: www.deepl.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇸🇪 瑞典 | SWE 2, server: 95.217.135.173, port: 443, type: trojan, password: "8r<[9'l6hAO#8ZQi", sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram🇨🇳 @WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}, udp: true}
+  - {name: 🇸🇬 新加坡 | SGP, server: 3f53b655-teocg0-tv7zgh-1ijh5.sg3.oshuawei.com, port: 443, type: http, username: f7d95364-607b-11ee-93af-f23c91369f2d, password: f7d95364-607b-11ee-93af-f23c91369f2d, tls: true}
+  - {name: 🇸🇬 新加坡 | SGP 2, server: 07dc250c-temhs0-ts40sw-14g76.sg3.oshuawei.com, port: 443, type: http, username: 4729b4c8-1790-11eb-8684-f23c913c8d2b, password: 4729b4c8-1790-11eb-8684-f23c913c8d2b, tls: true}
+  - {name: 🇸🇬 新加坡 | SGP 3, server: 183.102.55.197, port: 29999, type: vless, uuid: 26524cce-d514-4014-a426-365fb266a14d, tls: true, servername: ynwta9.api-edge.fgfw.qzz.io, client-fingerprint: chrome, network: ws, ws-opts: {path: "/danfeng?ed=2560", headers: {Host: ynwta9.api-edge.fgfw.qzz.io}}, udp: true}
+  - {name: 🇺🇸 美国 | USA, server: ded18e8f-teocg0-thqfo9-1lkbs.se.hyhuawei.com, port: 443, type: anytls, password: 5a4c13ae-6673-11ee-a149-f23c9164ca5d, udp: true, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 | USA 2, server: 01081991-teisg0-tpaqgu-1smhu.se.oshuawei.com, port: 443, type: http, username: 62f2374c-891b-11ef-a3f6-f23c9164ca5d, password: 62f2374c-891b-11ef-a3f6-f23c9164ca5d, tls: true}
+  - {name: 🇺🇸 美国 | USA 3, server: 79170a12-teocg0-tpaqgu-1smhu.se.oshuawei.com, port: 443, type: http, username: 62f2374c-891b-11ef-a3f6-f23c9164ca5d, password: 62f2374c-891b-11ef-a3f6-f23c9164ca5d, tls: true}
+  - {name: 🇺🇸 美国 | USA 4, server: a74e1e36-tekn40-tv7zgh-1ijh5.u12.oshuawei.com, port: 443, type: http, username: f7d95364-607b-11ee-93af-f23c91369f2d, password: f7d95364-607b-11ee-93af-f23c91369f2d, tls: true}
+  - {name: 🇺🇸 美国 | USA 5, server: 5997e547-teocg0-tnkuks-wujn.sj.oshuawei.com, port: 8443, type: anytls, password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b, udp: true, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 | USA 6, server: 692bfde9-tekn40-tv7zgh-1ijh5.sj.oshuawei.com, port: 8443, type: anytls, password: f7d95364-607b-11ee-93af-f23c91369f2d, udp: true, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 | USA 7, server: c7b59bb0-teocg0-tpw4i4-1pckg.sj.hyhuawei.com, port: 443, type: http, username: 526a1128-7487-11ee-9bca-f23c913c8d2b, password: 526a1128-7487-11ee-9bca-f23c913c8d2b, tls: true}
+  - {name: 🇺🇸 美国 | USA 8, server: v4.hdacd.com, port: 30804, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 | USA 9, server: ba82dfd7-tegxs0-teoi3e-1thts.cu.oshuawei.com, port: 15229, type: http, username: cb96c846-fd6d-11ef-a910-f23c9164ca5d, password: cb96c846-fd6d-11ef-a910-f23c9164ca5d, tls: true}
+  - {name: 🇺🇸 美国 | USA 10, server: adf30d3f-teocg0-tv7zgh-1ijh5.u12.oshuawei.com, port: 443, type: http, username: f7d95364-607b-11ee-93af-f23c91369f2d, password: f7d95364-607b-11ee-93af-f23c91369f2d, tls: true}
+  - {name: 🇺🇸 美国 | USA 11, server: f544cb95-tekn40-tijbf1-1nhp7.se.oshuawei.com, port: 443, type: http, username: 5fc9c9aa-ea47-11ed-8397-f23c913c8d2b, password: 5fc9c9aa-ea47-11ed-8397-f23c913c8d2b, tls: true}
+  - {name: 🇺🇸 美国 | USA 12, server: 25924578-teocg0-tnnrly-g43g.u12.oshuawei.com, port: 443, type: http, username: 6ddb6a68-d5f5-ca30-3943-cf0c9876d50c, password: 6ddb6a68-d5f5-ca30-3943-cf0c9876d50c, tls: true}
+  - {name: 🇺🇸 美国 | USA 13, server: 0a3d0de6-tekn40-tfzlyg-1kcpe.sj.oshuawei.com, port: 8443, type: anytls, password: 3f514ea2-4662-11ed-a8bf-f23c91cfbbc9, udp: true, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 | USA 14, server: 67092be3-temhs0-tj7qhp-4lg6.u12.oshuawei.com, port: 443, type: http, username: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d, password: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d, tls: true}
+  - {name: 🇺🇸 美国 | USA 15, server: 97400164-temhs0-thvjmj-1th8j.isp.cdnkuaishou.com, port: 8443, type: http, username: 7d7c111e-fbc1-11ef-ab5f-f23c913c8d2b, password: 7d7c111e-fbc1-11ef-ab5f-f23c913c8d2b, tls: true}
+  - {name: 🇺🇸 美国 | USA 16, server: 1a74e589-temhs0-tfzlyg-1kcpe.sj.hyhuawei.com, port: 443, type: http, username: 3f514ea2-4662-11ed-a8bf-f23c91cfbbc9, password: 3f514ea2-4662-11ed-a8bf-f23c91cfbbc9, tls: true}
+  - {name: 🇺🇸 美国 | USA 17, server: a0f333dc-temhs0-tv7zgh-1ijh5.sj.oshuawei.com, port: 8443, type: anytls, password: f7d95364-607b-11ee-93af-f23c91369f2d, udp: true, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 | USA 18, server: 53cbc443-teocg0-ts40sw-14g76.se.hyhuawei.com, port: 443, type: anytls, password: 4729b4c8-1790-11eb-8684-f23c913c8d2b, udp: true, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 | USA 19, server: dafa301f-tegxs0-tgzvop-hns7.se.hyhuawei.com, port: 443, type: anytls, password: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b, udp: true, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 | USA 20, server: 0ffbb923-tegxs0-teoi3e-1thts.sj.oshuawei.com, port: 8443, type: anytls, password: cb96c846-fd6d-11ef-a910-f23c9164ca5d, udp: true, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 | USA 21, server: 8934f8ce-tegxs0-tf5zuq-fa3p.se.oshuawei.com, port: 443, type: http, username: 905fcd78-866c-81e1-3cb8-1beb59d661ab, password: 905fcd78-866c-81e1-3cb8-1beb59d661ab, tls: true}
+  - {name: 🇺🇸 美国 | USA 22, server: us.musicperec.ru, port: 443, type: vless, uuid: ec9e7b71-72b6-0021-8549-2efb1b21a502, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4, short-id: "6e3f0a5b" }, servername: ads.x5.ru, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇺🇸 美国 | USA 23, server: 34347337-temhs0-tj7qhp-4lg6.se.oshuawei.com, port: 443, type: http, username: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d, password: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d, tls: true}
+  - {name: 🇺🇸 美国 | USA 24, server: 6f37a2dd-teocg0-teykgk-19xg1.se.hyhuawei.com, port: 443, type: anytls, password: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9, udp: true, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 | USA 25, server: 005edcad-tekn40-thqfo9-1lkbs.u12.oshuawei.com, port: 443, type: http, username: 5a4c13ae-6673-11ee-a149-f23c9164ca5d, password: 5a4c13ae-6673-11ee-a149-f23c9164ca5d, tls: true}
+  - {name: 🇺🇸 美国 | USA 26, server: 51f5f336-temhs0-tgzvop-hns7.sj.hyhuawei.com, port: 443, type: http, username: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b, password: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b, tls: true}
+  - {name: 🇺🇸 美国 | USA 27, server: f17316b0-teisg0-tgzvop-hns7.se.oshuawei.com, port: 443, type: http, username: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b, password: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b, tls: true}
+  - {name: 🇺🇸 美国 | USA 28, server: 8151bf21-tekn40-thvjmj-1th8j.isp.cdnkuaishou.com, port: 8443, type: http, username: 7d7c111e-fbc1-11ef-ab5f-f23c913c8d2b, password: 7d7c111e-fbc1-11ef-ab5f-f23c913c8d2b, tls: true}
+  - {name: 🇺🇸 美国 | USA 29, server: 859f43e7-teisg0-thvjmj-1th8j.isp.cdnkuaishou.com, port: 8443, type: http, username: 7d7c111e-fbc1-11ef-ab5f-f23c913c8d2b, password: 7d7c111e-fbc1-11ef-ab5f-f23c913c8d2b, tls: true}
+  - {name: 🇺🇸 美国 | USA 30, server: cc3437d2-teisg0-tv7zgh-1ijh5.sj.hyhuawei.com, port: 443, type: http, username: f7d95364-607b-11ee-93af-f23c91369f2d, password: f7d95364-607b-11ee-93af-f23c91369f2d, tls: true}
+  - {name: 🇺🇸 美国 | USA 31, server: ac88017a-tegxs0-teykgk-19xg1.isp.cdnkuaishou.com, port: 8443, type: http, username: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9, password: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9, tls: true}
+  - {name: 🇺🇸 美国 | USA 32, server: f28f270a-tegxs0-ts40sw-14g76.sj.oshuawei.com, port: 8443, type: anytls, password: 4729b4c8-1790-11eb-8684-f23c913c8d2b, udp: true, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 | USA 33, server: e4d5368d-tegxs0-ts40sw-14g76.sj.hyhuawei.com, port: 443, type: http, username: 4729b4c8-1790-11eb-8684-f23c913c8d2b, password: 4729b4c8-1790-11eb-8684-f23c913c8d2b, tls: true}
+  - {name: 🇺🇸 美国 | USA 34, server: 558db0b9-teocg0-thvjmj-1th8j.u12.oshuawei.com, port: 443, type: http, username: 7d7c111e-fbc1-11ef-ab5f-f23c913c8d2b, password: 7d7c111e-fbc1-11ef-ab5f-f23c913c8d2b, tls: true}
+  - {name: 🇺🇸 美国 | USA 35, server: bded808c-teocg0-tfzlyg-1kcpe.se.oshuawei.com, port: 443, type: http, username: 3f514ea2-4662-11ed-a8bf-f23c91cfbbc9, password: 3f514ea2-4662-11ed-a8bf-f23c91cfbbc9, tls: true}
+  - {name: 🇻🇳 越南 | VNM, server: 103.186.154.62, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇻🇳 越南 | VNM 2, server: 103.186.155.226, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇻🇳 越南 | VNM 3, server: 103.186.154.20, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇻🇳 越南 | VNM 4, server: 103.186.155.202, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇻🇳 越南 | VNM 5, server: 103.186.154.64, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇻🇳 越南 | VNM 6, server: 103.186.154.51, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇻🇳 越南 | VNM 7, server: 103.186.155.128, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇻🇳 越南 | VNM 8, server: 103.186.154.236, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
 proxy-groups:
   - name: ✈️ ‍起飞
     type: select
@@ -108,7 +114,9 @@ proxy-groups:
     interval: 30
     tolerance: 100
     proxies:
-      - 🇦🇪 阿联酋 | ARE
+      - 🇩🇪 德国 | DEU
+      - 🇩🇪 德国 | DEU 2
+      - 🇩🇪 德国 | DEU 3
       - 🇫🇮 芬兰 | FIN
       - 🇫🇷 法国 | FRA
       - 🇫🇷 法国 | FRA 2
@@ -118,6 +126,10 @@ proxy-groups:
       - 🇬🇧 英国 | GBR
       - 🇬🇧 英国 | GBR 2
       - 🇬🇧 英国 | GBR 3
+      - 🇬🇧 英国 | GBR 4
+      - 🇬🇧 英国 | GBR 5
+      - 🇬🇧 英国 | GBR 6
+      - 🇬🇧 英国 | GBR 7
       - 🇭🇰 香港 | HKG
       - 🇭🇰 香港 | HKG 2
       - 🇭🇰 香港 | HKG 3
@@ -126,26 +138,20 @@ proxy-groups:
       - 🇮🇩 印尼 | IDN
       - 🇮🇩 印尼 | IDN 2
       - 🇮🇩 印尼 | IDN 3
-      - 🇮🇩 印尼 | IDN 4
-      - 🇮🇩 印尼 | IDN 5
-      - 🇮🇩 印尼 | IDN 6
       - 🇯🇵 日本 | JPN
       - 🇯🇵 日本 | JPN 2
-      - 🇰🇷 韩国 | KOR
-      - 🇰🇷 韩国 | KOR 2
-      - 🇰🇷 韩国 | KOR 3
+      - 🇯🇵 日本 | JPN 3
       - 🇱🇻 拉脱维亚 | LVA
       - 🇱🇻 拉脱维亚 | LVA 2
-      - 🇱🇻 拉脱维亚 | LVA 3
       - 🇲🇾 马来西亚 | MYS
       - 🇲🇾 马来西亚 | MYS 2
-      - 🇳🇱 荷兰 | NLD
       - 🇷🇴 罗马尼亚 | ROU
       - 🇷🇴 罗马尼亚 | ROU 2
+      - 🇸🇪 瑞典 | SWE
+      - 🇸🇪 瑞典 | SWE 2
       - 🇸🇬 新加坡 | SGP
       - 🇸🇬 新加坡 | SGP 2
       - 🇸🇬 新加坡 | SGP 3
-      - 🇸🇬 新加坡 | SGP 4
       - 🇺🇸 美国 | USA
       - 🇺🇸 美国 | USA 2
       - 🇺🇸 美国 | USA 3
@@ -182,11 +188,19 @@ proxy-groups:
       - 🇺🇸 美国 | USA 34
       - 🇺🇸 美国 | USA 35
       - 🇻🇳 越南 | VNM
-      - 🏴‍☠️ 未知地区 | Unknown
+      - 🇻🇳 越南 | VNM 2
+      - 🇻🇳 越南 | VNM 3
+      - 🇻🇳 越南 | VNM 4
+      - 🇻🇳 越南 | VNM 5
+      - 🇻🇳 越南 | VNM 6
+      - 🇻🇳 越南 | VNM 7
+      - 🇻🇳 越南 | VNM 8
   - name: 👆🏻 ‍指定
     type: select
     proxies:
-      - 🇦🇪 阿联酋 | ARE
+      - 🇩🇪 德国 | DEU
+      - 🇩🇪 德国 | DEU 2
+      - 🇩🇪 德国 | DEU 3
       - 🇫🇮 芬兰 | FIN
       - 🇫🇷 法国 | FRA
       - 🇫🇷 法国 | FRA 2
@@ -196,6 +210,10 @@ proxy-groups:
       - 🇬🇧 英国 | GBR
       - 🇬🇧 英国 | GBR 2
       - 🇬🇧 英国 | GBR 3
+      - 🇬🇧 英国 | GBR 4
+      - 🇬🇧 英国 | GBR 5
+      - 🇬🇧 英国 | GBR 6
+      - 🇬🇧 英国 | GBR 7
       - 🇭🇰 香港 | HKG
       - 🇭🇰 香港 | HKG 2
       - 🇭🇰 香港 | HKG 3
@@ -204,26 +222,20 @@ proxy-groups:
       - 🇮🇩 印尼 | IDN
       - 🇮🇩 印尼 | IDN 2
       - 🇮🇩 印尼 | IDN 3
-      - 🇮🇩 印尼 | IDN 4
-      - 🇮🇩 印尼 | IDN 5
-      - 🇮🇩 印尼 | IDN 6
       - 🇯🇵 日本 | JPN
       - 🇯🇵 日本 | JPN 2
-      - 🇰🇷 韩国 | KOR
-      - 🇰🇷 韩国 | KOR 2
-      - 🇰🇷 韩国 | KOR 3
+      - 🇯🇵 日本 | JPN 3
       - 🇱🇻 拉脱维亚 | LVA
       - 🇱🇻 拉脱维亚 | LVA 2
-      - 🇱🇻 拉脱维亚 | LVA 3
       - 🇲🇾 马来西亚 | MYS
       - 🇲🇾 马来西亚 | MYS 2
-      - 🇳🇱 荷兰 | NLD
       - 🇷🇴 罗马尼亚 | ROU
       - 🇷🇴 罗马尼亚 | ROU 2
+      - 🇸🇪 瑞典 | SWE
+      - 🇸🇪 瑞典 | SWE 2
       - 🇸🇬 新加坡 | SGP
       - 🇸🇬 新加坡 | SGP 2
       - 🇸🇬 新加坡 | SGP 3
-      - 🇸🇬 新加坡 | SGP 4
       - 🇺🇸 美国 | USA
       - 🇺🇸 美国 | USA 2
       - 🇺🇸 美国 | USA 3
@@ -260,7 +272,13 @@ proxy-groups:
       - 🇺🇸 美国 | USA 34
       - 🇺🇸 美国 | USA 35
       - 🇻🇳 越南 | VNM
-      - 🏴‍☠️ 未知地区 | Unknown
+      - 🇻🇳 越南 | VNM 2
+      - 🇻🇳 越南 | VNM 3
+      - 🇻🇳 越南 | VNM 4
+      - 🇻🇳 越南 | VNM 5
+      - 🇻🇳 越南 | VNM 6
+      - 🇻🇳 越南 | VNM 7
+      - 🇻🇳 越南 | VNM 8
   - name: 🛩️ ‍墙内
     type: select
     proxies:
@@ -345,7 +363,6 @@ proxy-groups:
       - 🇸🇬 新加坡 | SGP
       - 🇸🇬 新加坡 | SGP 2
       - 🇸🇬 新加坡 | SGP 3
-      - 🇸🇬 新加坡 | SGP 4
   - name: 🇯🇵 ‍日本
     type: url-test
     url: https://i.ytimg.com/generate_204
@@ -354,6 +371,7 @@ proxy-groups:
     proxies:
       - 🇯🇵 日本 | JPN
       - 🇯🇵 日本 | JPN 2
+      - 🇯🇵 日本 | JPN 3
   - name: 🇺🇸 ‍美国
     type: url-test
     url: https://i.ytimg.com/generate_204
@@ -401,7 +419,9 @@ proxy-groups:
     interval: 30
     tolerance: 100
     proxies:
-      - 🇦🇪 阿联酋 | ARE
+      - 🇩🇪 德国 | DEU
+      - 🇩🇪 德国 | DEU 2
+      - 🇩🇪 德国 | DEU 3
       - 🇫🇮 芬兰 | FIN
       - 🇫🇷 法国 | FRA
       - 🇫🇷 法国 | FRA 2
@@ -411,25 +431,29 @@ proxy-groups:
       - 🇬🇧 英国 | GBR
       - 🇬🇧 英国 | GBR 2
       - 🇬🇧 英国 | GBR 3
+      - 🇬🇧 英国 | GBR 4
+      - 🇬🇧 英国 | GBR 5
+      - 🇬🇧 英国 | GBR 6
+      - 🇬🇧 英国 | GBR 7
       - 🇮🇩 印尼 | IDN
       - 🇮🇩 印尼 | IDN 2
       - 🇮🇩 印尼 | IDN 3
-      - 🇮🇩 印尼 | IDN 4
-      - 🇮🇩 印尼 | IDN 5
-      - 🇮🇩 印尼 | IDN 6
-      - 🇰🇷 韩国 | KOR
-      - 🇰🇷 韩国 | KOR 2
-      - 🇰🇷 韩国 | KOR 3
       - 🇱🇻 拉脱维亚 | LVA
       - 🇱🇻 拉脱维亚 | LVA 2
-      - 🇱🇻 拉脱维亚 | LVA 3
       - 🇲🇾 马来西亚 | MYS
       - 🇲🇾 马来西亚 | MYS 2
-      - 🇳🇱 荷兰 | NLD
       - 🇷🇴 罗马尼亚 | ROU
       - 🇷🇴 罗马尼亚 | ROU 2
+      - 🇸🇪 瑞典 | SWE
+      - 🇸🇪 瑞典 | SWE 2
       - 🇻🇳 越南 | VNM
-      - 🏴‍☠️ 未知地区 | Unknown
+      - 🇻🇳 越南 | VNM 2
+      - 🇻🇳 越南 | VNM 3
+      - 🇻🇳 越南 | VNM 4
+      - 🇻🇳 越南 | VNM 5
+      - 🇻🇳 越南 | VNM 6
+      - 🇻🇳 越南 | VNM 7
+      - 🇻🇳 越南 | VNM 8
   - name: 👆🏻🇭🇰 ‍香港
     type: select
     proxies:
@@ -456,12 +480,12 @@ proxy-groups:
       - 🇸🇬 新加坡 | SGP
       - 🇸🇬 新加坡 | SGP 2
       - 🇸🇬 新加坡 | SGP 3
-      - 🇸🇬 新加坡 | SGP 4
   - name: 👆🏻🇯🇵 ‍日本
     type: select
     proxies:
       - 🇯🇵 日本 | JPN
       - 🇯🇵 日本 | JPN 2
+      - 🇯🇵 日本 | JPN 3
   - name: 👆🏻🇺🇸 ‍美国
     type: select
     proxies:
@@ -503,7 +527,9 @@ proxy-groups:
   - name: 👆🏻🎏 ‍其他
     type: select
     proxies:
-      - 🇦🇪 阿联酋 | ARE
+      - 🇩🇪 德国 | DEU
+      - 🇩🇪 德国 | DEU 2
+      - 🇩🇪 德国 | DEU 3
       - 🇫🇮 芬兰 | FIN
       - 🇫🇷 法国 | FRA
       - 🇫🇷 法国 | FRA 2
@@ -513,25 +539,29 @@ proxy-groups:
       - 🇬🇧 英国 | GBR
       - 🇬🇧 英国 | GBR 2
       - 🇬🇧 英国 | GBR 3
+      - 🇬🇧 英国 | GBR 4
+      - 🇬🇧 英国 | GBR 5
+      - 🇬🇧 英国 | GBR 6
+      - 🇬🇧 英国 | GBR 7
       - 🇮🇩 印尼 | IDN
       - 🇮🇩 印尼 | IDN 2
       - 🇮🇩 印尼 | IDN 3
-      - 🇮🇩 印尼 | IDN 4
-      - 🇮🇩 印尼 | IDN 5
-      - 🇮🇩 印尼 | IDN 6
-      - 🇰🇷 韩国 | KOR
-      - 🇰🇷 韩国 | KOR 2
-      - 🇰🇷 韩国 | KOR 3
       - 🇱🇻 拉脱维亚 | LVA
       - 🇱🇻 拉脱维亚 | LVA 2
-      - 🇱🇻 拉脱维亚 | LVA 3
       - 🇲🇾 马来西亚 | MYS
       - 🇲🇾 马来西亚 | MYS 2
-      - 🇳🇱 荷兰 | NLD
       - 🇷🇴 罗马尼亚 | ROU
       - 🇷🇴 罗马尼亚 | ROU 2
+      - 🇸🇪 瑞典 | SWE
+      - 🇸🇪 瑞典 | SWE 2
       - 🇻🇳 越南 | VNM
-      - 🏴‍☠️ 未知地区 | Unknown
+      - 🇻🇳 越南 | VNM 2
+      - 🇻🇳 越南 | VNM 3
+      - 🇻🇳 越南 | VNM 4
+      - 🇻🇳 越南 | VNM 5
+      - 🇻🇳 越南 | VNM 6
+      - 🇻🇳 越南 | VNM 7
+      - 🇻🇳 越南 | VNM 8
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,DIRECT
   - DOMAIN-SUFFIX,ip6-localhost,DIRECT
